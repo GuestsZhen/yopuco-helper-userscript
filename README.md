@@ -1,4 +1,4 @@
-# 有谱么助手 V4.36
+# 有谱么助手 V4.40
 
 一款专为 [有谱么](https://yopu.co) 网站设计的浏览器用户脚本，提供优化的打印功能和伴奏播放控制。
 
@@ -35,10 +35,10 @@
 
 | 平台 | 浏览器 | 扩展版本 | 测试状态 |
 |------|--------|----------|----------|
-| macOS 15 | Chrome 148+ | Tampermonkey 5.4.1 | ✅ 已测试 |
-| macOS 15 | Edge 148+ | Tampermonkey 5.4.1 | ✅ 已测试 |
-| iOS 26 | Safari | Userscripts 1.8.6 | ✅ 已测试 |
-| Android 15 | Edge 148+ | Tampermonkey | ✅ 已测试 |
+| macOS 15 | Chrome 148+ | Tampermonkey 5.4.1 | ✅ 测试通过 |
+| macOS 15 | Edge 148+ | Tampermonkey 5.4.1 | ✅ 测试通过 |
+| iOS 26 | Safari | Userscripts 1.8.6 | ✅ 测试通过 |
+| Android 15 | Edge 148+ | Tampermonkey 5.5.0 | ✅ 测试通过 |
 
 ## 安装步骤
 
@@ -63,7 +63,7 @@
 |------|----------------|
 | **Userscripts 安装** | <img src="./README_IMG/yopuco-helper-userscript_ios_SafariUserscripts1.8.6.jpg" width="200" alt="Userscripts 安装" /> |
 | **打印设置界面** | <img src="./README_IMG/yopuco-helper-userscript_ios_Safariprint_setting.jpg" width="200" alt="打印设置" /> |
-| **打印预览** | <img src="./README_IMG/yopuco-helper-userscript_ios_Safari_print_view.jpg" width="200" alt="打印预览 1" /> <img src="./README_IMG/yopuco-helper-userscript_ios_Safariprint_view2.jpg" width="200" alt="打印预览 2" /> |
+| **打印预览** | <img src="./README_IMG/yopuco-helper-userscript_ios_Safari_print_view.jpg" width="200" alt="打印预览 1" /> |
 | **伴奏播放** | <img src="./README_IMG/yopuco-helper-userscript_ios_Safari_player.jpg" width="200" alt="伴奏播放" /> |
 
 ---
@@ -129,10 +129,15 @@ Yopu.co/
 
 ## 版本历史
 
-- **v4.36** (当前版本)
+- **v4.40** (当前版本)
   - 优化跨浏览器打印兼容性
-  - 使用 iframe 替代 DOM 操作打印
-  - 修复 iOS/Android 打印空白问题
+  - 使用 iframe 隔离打印，修复安卓Edge打印空白问题
+  - 移除调试代码和打印预览功能
+  - 添加作者信息显示
+
+- **v4.36**
+  - 基础功能完善
+  - UI 优化
   
 - **v4.35**
   - 基础功能完善
@@ -190,7 +195,7 @@ A: 检查浏览器控制台是否有错误。尝试清除缓存后重新加载�
 ## 开发者信息
 
 - **作者**：GuestsZhen
-- **版本**：4.36
+- **版本**：4.40
 - **许可证**：MIT License
 - **问题反馈**：欢迎提交 Issue
 

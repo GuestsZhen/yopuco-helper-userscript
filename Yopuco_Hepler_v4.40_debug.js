@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         有谱么助手 V4.36
+// @name         有谱么助手 V4.40 (调试版)
 // @namespace    http://tampermonkey.net/
-// @version      4.36
-// @description  基于 v4.35，删除调试代码，添加重置按钮
+// @version      4.40
+// @description  基于 v4.36，修复安卓Edge打印空白问题，使用iframe隔离打印
 // @author       GuestsZhen
 // @match        https://yopu.co/view/*
 // @grant        none
