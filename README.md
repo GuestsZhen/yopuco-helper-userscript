@@ -57,6 +57,8 @@
 3. 点击 Userscripts 图标，选择"新建脚本"
 4. 粘贴脚本内容并保存
 
+![iOS Safari Userscripts 安装](README_IMG/ios_Safari_Userscripts1.8.6.jpg)
+
 ## 使用方法
 
 1. 访问有谱么乐谱页面（如 `https://yopu.co/view/xxx`）
@@ -71,11 +73,19 @@
 3. 点击"打印"按钮
 4. 系统将自动打开浏览器打印对话框
 
+![打印设置界面](README_IMG/ios_Safari_print_setting.jpg)
+
+![打印预览界面](README_IMG/ios_Safari_print_view.jpg)
+
+![打印预览界面2](README_IMG/ios_Safari_print_view2.jpg)
+
 ### 伴奏播放
 
 1. 点击"伴奏播放"开关
 2. 开关变为蓝色表示已启用
 3. 页面播放功能已解锁
+
+![伴奏播放控制](README_IMG/ios_Safari_player.jpg)
 
 ### 重置设置
 
@@ -106,7 +116,15 @@ Yopu.co/
 ├── Yopuco_Hepler_vdubug.js        # 调试版本
 ├── Yopuco_Hepler_v4.19.js         # 历史版本
 ├── Yopuco_Hepler_v4.39_ios_print.js  # iOS 打印专项版本
-└── README.md                       # 项目说明文档
+├── README_IMG/                     # README 图片资源
+│   ├── ios_Safari_Userscripts1.8.6.jpg
+│   ├── ios_Safari_player.jpg
+│   ├── ios_Safari_print_setting.jpg
+│   ├── ios_Safari_print_view.jpg
+│   └── ios_Safari_print_view2.jpg
+├── README.md                       # 项目说明文档
+├── LICENSE                         # MIT 许可证
+└── .gitignore                      # Git 忽略配置
 ```
 
 ## 版本历史
