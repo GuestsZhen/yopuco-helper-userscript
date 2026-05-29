@@ -57,7 +57,7 @@
 3. 点击 Userscripts 图标，选择"新建脚本"
 4. 粘贴脚本内容并保存
 
-![iOS Safari Userscripts 安装](README_IMG/ios_Safari_Userscripts1.8.6.jpg)
+![iOS Safari Userscripts 安装](https://raw.githubusercontent.com/GuestsZhen/yopuco-helper-userscript/master/README_IMG/ios_Safari_Userscripts1.8.6.jpg)
 
 ## 使用方法
 
