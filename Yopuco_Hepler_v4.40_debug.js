@@ -409,7 +409,7 @@
     document.body.appendChild(mainContainer);
 
     const titleDiv = document.createElement('div');
-    titleDiv.innerHTML = '<strong>有谱么助手 V4.36</strong>';
+    titleDiv.innerHTML = '<strong>有谱么助手 V4.40</strong>';
     titleDiv.style.cssText = 'text-align: center; margin-bottom: 10px; font-size: 16px; font-weight: bold;';
     contentContainer.appendChild(titleDiv);
 
