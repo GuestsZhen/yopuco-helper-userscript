@@ -1,0 +1,19 @@
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 文本编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 临时文件
+*.log
+*.tmp
+
+# macOS
+.DS_Store
+
+# 忽略其他非项目文件
+*~
